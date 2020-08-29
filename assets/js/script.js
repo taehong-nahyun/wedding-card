@@ -384,12 +384,12 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown(September 7 2020 16:00:00 GMT+0900, function(event) {
+        $('#clock').countdown('2020/2/14', function(event) {
             var $this = $(this).html(event.strftime(''
-            + '<div class="box"><div>%D</div> <span>Days</span> </div>'
-            + '<div class="box"><div>%H</div> <span>Hours</span> </div>'
-            + '<div class="box"><div>%M</div> <span>Mins</span> </div>'
-            + '<div class="box"><div>%S</div> <span>Secs</span> </div>'));
+            + '<div class="box"><div>2</div> <span>Days</span> </div>'
+            + '<div class="box"><div>14</div> <span>Hours</span> </div>'
+            + '<div class="box"><div>00</div> <span>Mins</span> </div>'
+            + '<div class="box"><div>00</div> <span>Secs</span> </div>'));
         });
     }
 
